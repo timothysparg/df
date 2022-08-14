@@ -5,4 +5,6 @@ then
     mkdir -p ~/.vim/pack/tpope/start
     cd ~/.vim/pack/tpope/start
     git clone https://tpope.io/vim/sensible.git
-fi
+else
+    "sensible.vim is already installed"    
+fi    
